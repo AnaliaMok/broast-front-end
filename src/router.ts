@@ -8,13 +8,13 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
-    // {
-    //   path: '/',
-    //   name: 'home',
-    //   component: Home
-    // },
     {
-      path: '/', // TODO: Switch back to own route later.
+      path: '/',
+      name: 'home',
+      component: Home
+    },
+    {
+      path: 'style-guide',
       name: 'styleGuide',
       component: () => import(/* webpackChunkName: "style-guide" */ './views/StyleGuide.vue')
     }
