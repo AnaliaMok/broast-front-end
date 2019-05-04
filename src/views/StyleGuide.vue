@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h2>Home Page</h2>
+    <h2>Style Guide</h2>
   </Layout>
 </template>
 
@@ -8,5 +8,5 @@
 import { Vue, Component } from 'vue-property-decorator';
 
 @Component
-export default class Home extends Vue {}
+export default class StyleGuide extends Vue {}
 </script>
