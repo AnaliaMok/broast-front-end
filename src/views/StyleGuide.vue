@@ -68,9 +68,3 @@ import LightLogo from '@/components/icons/LightLogo.vue';
 })
 export default class StyleGuide extends Vue {}
 </script>
-
-<style scoped>
-* {
-  color: #2d2d2d;
-}
-</style>
