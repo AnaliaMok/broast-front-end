@@ -22,6 +22,10 @@ export default new Router({
       path: 'roasters',
       name: 'roasters',
       component: () => import('./views/roasters/RoastersList.vue')
+    },
+    {
+      path: 'roasters/:roasterId',
+      component: () => import('./views/roasters/RoasterDetail.vue')
     }
   ]
 });
