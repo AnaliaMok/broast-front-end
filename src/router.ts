@@ -17,6 +17,11 @@ export default new Router({
       path: 'style-guide',
       name: 'styleGuide',
       component: () => import(/* webpackChunkName: "style-guide" */ './views/StyleGuide.vue')
+    },
+    {
+      path: 'roasters',
+      name: 'roasters',
+      component: () => import('./views/roasters/RoastersList.vue')
     }
   ]
 });
